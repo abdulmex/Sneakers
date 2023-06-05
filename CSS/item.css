@@ -7,19 +7,13 @@
 .d-lists {
     font-size: larger;
     font-weight:500;
+    padding-top: 12px;
 }
 .d-lists li:hover {
     transform: scale(1.1);
     color: black;
     font-size: 20px;
-}
-.home-btn {
-    color: white;
-    background-color: lightgrey;
-}
-.signup-btn {
-    margin-left: 12px;
-}
+}  
 .item-bg {
     border-radius: 10px;
 } 
@@ -105,3 +99,15 @@ b {
     font-size: larger;
     color: black;
 } 
+.cart {
+    margin-right: 40px;
+    margin-top: 16px;
+}
+.btn {
+    margin-top: 12px;
+    color: white;
+    border: 1px lightgray;
+    background-color: lightgray;
+    margin-left: 10px;
+    font-weight: bold;
+}
