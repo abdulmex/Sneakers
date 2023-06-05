@@ -24,9 +24,6 @@ ul {
     color: white;
     background-color: lightgrey;
 }
-.signup-btn {
-    margin-left: 12px;
-}
 .part1  {
     padding: 20px;
 }
@@ -39,7 +36,7 @@ ul {
 .who-we-are {
     margin: 0 4px 0 4px;
     padding-top: 10px;
-    background-color: lightgrey;
+    background-color: hsl(223, 64%, 98%);
     border-radius: 10px;
 }
 .leaders-img {
@@ -48,7 +45,7 @@ ul {
 }
 .col {
     text-align: center;
-    background-color: lightgrey;    
+    background-color: hsl(223, 64%, 98%);;    
     border-radius: 10px;
     margin: 20px;
 }
