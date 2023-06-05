@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.d-lists {
+    font-size: larger;
+    font-weight:500;
+}
+.d-lists li:hover {
+    transform: scale(1.1);
+    color: black;
+    font-size: 20px;
+}
+.home-btn {
+    color: white;
+    background-color: lightgrey;
+}
+.signup-btn {
+    margin-left: 12px;
+}
+.card-bg {
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 15px;
+    padding: 20px 15px 15px 15px;
+}
+.crds:hover {
+    transform: scale(1.1);
+}
+.btn {
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+}
+.row {
+    padding-bottom: 30px;
+}  

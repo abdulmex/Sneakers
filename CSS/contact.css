@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.d-lists {
+    font-size: larger;
+    font-weight:500;
+}
+.d-lists li:hover {
+    transform: scale(1.1);
+    color: black;
+    font-size: 20px;
+}
+.home-btn {
+    color: white;
+    background-color: lightgrey;
+}
+.signup-btn {
+    margin-left: 12px;
+}
+.content {
+    margin-top: 50px;
+}
+.part2{
+    padding-left: 22px;
+}
+.imgs {
+    width: 525px;
+    height: 50vh;
+    aspect-ratio: 4/3;
+    border-radius: 10px;
+}
+.sub-btn {
+    margin-left: 235px;
+    font-weight: bold;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 6vh;
+    color: white;
+}
+.social-icons {
+    margin-left: 180px;
+    cursor: pointer;
+} 
