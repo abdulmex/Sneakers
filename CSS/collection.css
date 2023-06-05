@@ -7,6 +7,7 @@
 .d-lists {
     font-size: larger;
     font-weight:500;
+    padding-top: 12px;
 }
 .d-lists li:hover {
     transform: scale(1.1);
@@ -28,10 +29,17 @@
 .crds:hover {
     transform: scale(1.1);
 }
+.cart {
+    margin-right: 40px;
+    margin-top: 16px;
+}
 .btn {
+    margin-top: 12px;
     color: white;
-    background-color: hsl(26, 100%, 55%);
-    border: none;
+    border: 1px lightgray;
+    background-color: lightgray;
+    margin-left: 10px;
+    font-weight: bold;
 }
 .row {
     padding-bottom: 30px;
