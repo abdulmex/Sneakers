@@ -8,6 +8,7 @@
 .d-lists {
     font-size: larger;
     font-weight:500;
+    padding-top: 11px;
 }
 .d-lists li:hover {
     transform: scale(1.1);
