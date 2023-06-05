@@ -7,9 +7,14 @@
 .logo {
     height: 3vh;
 }
+ul {
+    margin-left: 60px;
+}
 .d-lists {
+    padding-top: 12px;
     font-size: larger;
     font-weight:500;
+    background-color: aqua;
 }
 .d-lists li:hover {
     transform: scale(1.1);
@@ -46,4 +51,14 @@
     background-color: lightgrey;    
     border-radius: 10px;
     margin: 20px;
+}
+.cart {
+    
+}
+.btn {
+    color: white;
+    border: 1px lightgray;
+    background-color: lightgray;
+    margin-left: 10px;
+    font-weight: bold;
 }
