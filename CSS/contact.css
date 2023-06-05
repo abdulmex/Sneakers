@@ -17,8 +17,9 @@
 .content {
     margin-top: 50px;
 }
-.part2{
-    padding-left: 22px;
+.part2 {
+    max-width: 100%;
+    background-color: hsl(223, 64%, 98%);;    
 }
 .imgs {
     width: 525px;
@@ -27,7 +28,6 @@
     border-radius: 10px;
 }
 .sub-btn {
-    margin-left: 235px;
     font-weight: bold;
     background-color: lightgray;
     border: none;
@@ -37,8 +37,11 @@
     color: white;
 }
 .social-icons {
-    margin-left: 180px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
 } 
 .cart {
     margin-right: 40px;
