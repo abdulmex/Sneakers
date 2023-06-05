@@ -14,7 +14,6 @@ ul {
     padding-top: 12px;
     font-size: larger;
     font-weight:500;
-    background-color: aqua;
 }
 .d-lists li:hover {
     transform: scale(1.1);
@@ -53,9 +52,11 @@ ul {
     margin: 20px;
 }
 .cart {
-    
+    margin-right: 40px;
+    margin-top: 16px;
 }
 .btn {
+    margin-top: 12px;
     color: white;
     border: 1px lightgray;
     background-color: lightgray;
