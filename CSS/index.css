@@ -16,14 +16,8 @@
     font-size: 20px;
 }
 .home-cont {
-    margin-top: 130px;
+    margin-top: 50px;
 } 
-.home-img {
-    width: 525px;
-    height: 50vh;
-    aspect-ratio: 4/3;
-    border-radius: 10px;
-}
 .home-text {
     text-align: center;
 }

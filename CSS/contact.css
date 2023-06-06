@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
 .d-lists {
     font-size: larger;
@@ -19,6 +20,7 @@
 }
 .part2 {
     max-width: 100%;
+    height: auto;
     background-color: hsl(223, 64%, 98%);;    
 }
 .imgs {
@@ -32,9 +34,14 @@
     background-color: lightgray;
     border: none;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.submit {
     width: 90px;
     height: 6vh;
-    color: white;
+    margin-bottom: 35px;
 }
 .social-icons {
     cursor: pointer;

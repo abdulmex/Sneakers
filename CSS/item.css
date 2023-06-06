@@ -17,13 +17,14 @@
 .item-bg {
     border-radius: 10px;
 } 
-.Grid1 {
+/* .Grid1 {
     margin: 28px;
-}
+} */
 .Grid2 {
     margin-top: 50px;
 }
 .Grid1-image {
+    max-width: 100%;
     height: 60vh;
     border-radius: 10px;
 }    
