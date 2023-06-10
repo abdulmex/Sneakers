@@ -5,3 +5,4 @@ const product = event.target.closest(".product");
 // Get the product name and price.
 const name = product.querySelector(".name").textContent;
 const price = product.querySelector(".price").textContent;
+// Create a new cart item object.
