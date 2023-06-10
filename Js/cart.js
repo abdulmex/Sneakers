@@ -24,4 +24,5 @@ function additemToCart(item) {
     cart.push(item);
     // Save the cart object.
     localStorage.setItem("cart", JSON.stringify(cart));
+    // Add a click listener to the "add to cart" button.
 }
