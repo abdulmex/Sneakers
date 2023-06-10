@@ -20,4 +20,6 @@ total.textContent = cart.querySelectorAll(".cart-item").length * price;
 function additemToCart(item) {
     // Get the cart object.
     let cart = localStorage.getItem("cart") || [];
+    // Add the item to the cart.
+  cart.push(item);
 }
