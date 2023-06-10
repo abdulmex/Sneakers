@@ -25,4 +25,7 @@ function additemToCart(item) {
     // Save the cart object.
     localStorage.setItem("cart", JSON.stringify(cart));
     // Add a click listener to the "add to cart" button.
+    document.querySelector(".add-to-cart").addEventListener("click", () => {
+        
+    }
 }
