@@ -14,3 +14,4 @@ const cartItem = {
 // Add the cart item to the cart.
 cart.appendChild(cartItem);
 const total = cart.querySelector(".total");
+total.textContent = cart.querySelectorAll(".cart-item").length * price;
