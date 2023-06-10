@@ -28,5 +28,6 @@ function additemToCart(item) {
     document.querySelector(".add-to-cart").addEventListener("click", () => {
         // Get the product ID from the button.
         let productId = this.dataset.productId;
+        // Get the product details from the server
     }
 }
