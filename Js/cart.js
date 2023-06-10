@@ -30,5 +30,7 @@ function additemToCart(item) {
         let productId = this.dataset.productId;
         // Get the product details from the server
         fetch(`/api/products/${productId}`)
+        .then(response => response.json())
+
     }
 }
