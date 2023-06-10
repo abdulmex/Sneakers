@@ -31,6 +31,6 @@ function additemToCart(item) {
         // Get the product details from the server
         fetch(`/api/products/${productId}`)
         .then(response => response.json())
-
+        .then(product => {
     }
 }
