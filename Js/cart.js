@@ -11,3 +11,4 @@ const cartItem = {
   price: price,
   quantity: 1,
 };
+// Add the cart item to the cart.
