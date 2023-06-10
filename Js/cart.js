@@ -6,3 +6,8 @@ const product = event.target.closest(".product");
 const name = product.querySelector(".name").textContent;
 const price = product.querySelector(".price").textContent;
 // Create a new cart item object.
+const cartItem = {
+  name: name,
+  price: price,
+  quantity: 1,
+};
