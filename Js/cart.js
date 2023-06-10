@@ -32,5 +32,6 @@ function additemToCart(item) {
         fetch(`/api/products/${productId}`)
         .then(response => response.json())
         .then(product => {
+            // Add the product to the cart.
     }
 }
