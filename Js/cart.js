@@ -44,3 +44,15 @@ document.querySelector(".add-to-cart").addEventListener("click", () => {
       alert("Product added to cart!");
     });
 });
+
+
+// The addItemToCart() function takes an item as its argument. The item can be any object that has a name and price property.
+// The addItemToCart() function first gets the cart object from local storage. If the cart object does not exist, it creates a new one.
+// The addItemToCart() function then adds the item to the cart object.
+// The addItemToCart() function then saves the cart object to local storage.
+// The add-to-cart button has an event listener attached to it. When the button is clicked, the event listener will be triggered.
+// The event listener gets the product ID from the button.
+// The event listener then makes a request to the server to get the product details.
+// The event listener then parses the response from the server and gets the product object.
+// The event listener then calls the addItemToCart() function and passes the product object as an argument.
+// The addItemToCart() function adds the product to the cart and shows a success message.
