@@ -12,3 +12,4 @@ const cartItem = {
   quantity: 1,
 };
 // Add the cart item to the cart.
+cart.appendChild(cartItem);
