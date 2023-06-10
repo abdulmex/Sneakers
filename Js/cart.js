@@ -27,5 +27,6 @@ function additemToCart(item) {
     // Add a click listener to the "add to cart" button.
     document.querySelector(".add-to-cart").addEventListener("click", () => {
         // Get the product ID from the button.
+        let productId = this.dataset.productId;
     }
 }
