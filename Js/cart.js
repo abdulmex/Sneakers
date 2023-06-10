@@ -33,5 +33,6 @@ function additemToCart(item) {
         .then(response => response.json())
         .then(product => {
             // Add the product to the cart.
+            addItemToCart(product);
     }
 }
