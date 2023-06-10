@@ -15,3 +15,8 @@ const cartItem = {
 cart.appendChild(cartItem);
 const total = cart.querySelector(".total");
 total.textContent = cart.querySelectorAll(".cart-item").length * price;
+
+
+function additemToCart(item) {
+
+}
