@@ -35,5 +35,7 @@ function additemToCart(item) {
             // Add the product to the cart.
             addItemToCart(product);
             // Show a success message.
+            alert("Product added to cart!");
+
     }
 }
