@@ -34,5 +34,6 @@ function additemToCart(item) {
         .then(product => {
             // Add the product to the cart.
             addItemToCart(product);
+            // Show a success message.
     }
 }
