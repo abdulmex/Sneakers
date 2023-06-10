@@ -36,6 +36,5 @@ function additemToCart(item) {
             addItemToCart(product);
             // Show a success message.
             alert("Product added to cart!");
-
-    }
+    });
 }
