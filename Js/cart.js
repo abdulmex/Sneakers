@@ -1,7 +1,6 @@
 function addItemToCart(item) {
   // Get the cart object.
   let cart = localStorage.getItem("cart") || [];
-
   // Add the item to the cart.
   cart.push(item);
 
