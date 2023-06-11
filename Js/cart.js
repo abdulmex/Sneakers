@@ -21,4 +21,3 @@ document.querySelector(".add-to-cart").addEventListener("click", () => {
     });
 });
 
-// The addItemToCart() function takes an item as its argument. The item can be any object that has a name and price property.
