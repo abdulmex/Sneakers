@@ -3,7 +3,6 @@ function addItemToCart(item) {
   let cart = localStorage.getItem("cart") || [];
   // Add the item to the cart.
   cart.push(item);
-
   // Save the cart object.
   localStorage.setItem("cart", JSON.stringify(cart));
 }
