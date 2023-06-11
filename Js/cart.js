@@ -8,7 +8,6 @@ function addItemToCart(item) {
   // Save the cart object.
   localStorage.setItem("cart", JSON.stringify(cart));
 }
-
 // Add a click listener to the "add to cart" button.
 document.querySelector(".add-to-cart").addEventListener("click", () => {
   // Get the product ID from the button.
