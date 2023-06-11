@@ -29,5 +29,3 @@ document.querySelector(".add-to-cart").addEventListener("click", () => {
 // The event listener gets the product ID from the button.
 // The event listener then makes a request to the server to get the product details.
 // The event listener then parses the response from the server and gets the product object.
-// The event listener then calls the addItemToCart() function and passes the product object as an argument.
-// The addItemToCart() function adds the product to the cart and shows a success message.
