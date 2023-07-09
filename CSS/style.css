@@ -33,14 +33,14 @@ Log In
 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#signupModal"> Sign Up</button>
 <!-- Modal -->
 <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-<div class="modal-dialog">
-<div class="modal-content text-center">
+< class="modal-dialog">
+< class="modal-content text-center">
 <div class="modal-header">
 <h1>Sign Up</h1>
 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
-<div class="modal-body">
-<form class="px-md-2">
+< class="modal-body">
+< class="px-md-2">
   <div class="form-outline mb-4">
     <input type="text" id="form3Example1q" placeholder="Name" class="form-control" required autofocus/>
   </div>
@@ -73,49 +73,3 @@ Log In
           </div>
       </div>
   </div>
-  <button class="btn">Sign Up</button>
-</form>
-</div>
-</div>
-</div>    
-</form>
-</div>
-</div>
-</nav>
-</div>
-<div class="container home-cont">
-<div class="row">
-<div class="col home-bg home-text">
-<h1>
-Welcome <br> <span class="to">to</span> <br>
-<img class=" home-logo" src="/Img/logo.svg" alt="">
-</h1>
-<p class="pgraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, atque. Saepe alias sint
-temporibus facilis
-nobis ipsa ipsum, ullam libero nisi pariatur recusandae voluptates ab nemo animi modi explicabo! Ducimus.
-</p>
-</div>
-<div class="col">
-<img src="/Img/hipster-g73985b9f3_1280.jpg" class="img-fluid" alt="Responsive image">
-</div>
-</div>
-</div>
-<!-- footer -->
-<div class="container">
-<footer class="py-3 my-4">
-<ul class="nav justify-content-center border-bottom pb-3 mb-3">
-<li class="nav-item"><a href="/collection.html" class="nav-link px-2 text-muted" target="_blank">Collection</a>
-</li>
-<li class="nav-item"><a href="/item.html" class="nav-link px-2 text-muted" target="_blank">Men</a></li>
-<li class="nav-item"><a href="#" class="nav-link px-2 text-muted" target="_blank">Women</a></li>
-<li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted" target="_blank">Contact</a></li>
-<li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted" target="_blank">About</a></li>
-</ul>
-<p class="text-center text-muted">&copy; 2023 Steveabdulmex, Inc</p>
-</footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-crossorigin="anonymous"></script>
-</body>
-</html>
