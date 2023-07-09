@@ -1,50 +1,50 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    background-color:  hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(0, 0%, 100%);
 }
 .d-lists {
-    font-size: larger;
-    font-weight:500;
-    padding-top: 11px;
+  font-size: larger;
+  font-weight: 500;
+  padding-top: 11px;
 }
 .d-lists li:hover {
-    transform: scale(1.1);
-    color: black;
-    font-size: 20px;
+  transform: scale(1.1);
+  color: black;
+  font-size: 20px;
 }
 .home-cont {
-    margin-top: 50px;
-} 
+  margin-top: 50px;
+}
 .home-text {
-    text-align: center;
+  text-align: center;
 }
 h1 {
-    margin: 20px 0 15px 0;
+  margin: 20px 0 15px 0;
 }
 .to {
-    margin: 10px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 .pgraph {
-    font-size: 19px;
-    padding-bottom: 25px;
+  font-size: 19px;
+  padding-bottom: 25px;
 }
 .home-logo {
-    width: auto;
-    height: 50px;
-    margin-bottom: 40px;
-} 
+  width: auto;
+  height: 50px;
+  margin-bottom: 40px;
+}
 .cart {
-    margin-right: 40px;
-    margin-top: 16px;
+  margin-right: 40px;
+  margin-top: 16px;
 }
 .btn {
-    margin-top: 12px;
-    color: white;
-    border: 1px lightgray;
-    background-color: lightgray;
-    margin-left: 10px;
-    font-weight: bold;
+  margin-top: 12px;
+  color: white;
+  border: 1px lightgray;
+  background-color: lightgray;
+  margin-left: 10px;
+  font-weight: bold;
 }
