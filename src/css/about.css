@@ -90,7 +90,7 @@ body.dark-mode {
   font-size: 18px;
   color: #000;
 }
-.ul-links .nav-link:hover {
+.ul-links .nav-link:focus {
   border-bottom: 3px solid #28166c;
 }
 .nav-btn {
@@ -145,9 +145,7 @@ body.dark-mode {
 .nav-btn:hover .arrow:before {
   right: 0;
 }
+/* main-section */
 main {
-  margin-top: 20vh;
-}
-.nav-intro {
-  padding-top: 8vh;
+  margin-top: 15vh;
 }
