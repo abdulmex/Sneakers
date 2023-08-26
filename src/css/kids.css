@@ -294,3 +294,9 @@ main {
   -webkit-box-shadow: var(--circle-checked-shadow);
   box-shadow: var(--circle-checked-shadow);
 }
+.item-cards {
+  border-radius: 10px;
+}
+.item-img {
+  border-radius: 10px;
+}
