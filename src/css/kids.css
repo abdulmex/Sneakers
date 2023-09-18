@@ -16,13 +16,17 @@ body.dark-mode {
   color: #ffffff;
   .nav-link {
     font-size: 18px;
-    color: #94a7af;
+    /* color: #94a7af; */
+    color: white;
   }
   .bar {
     background-color: #fff;
   }
   .navbar-brand {
     color: #d8e6fb;
+  }
+  .soial-svg {
+    color: white;
   }
 }
 /* hamburger */
@@ -90,7 +94,7 @@ body.dark-mode {
   font-size: 18px;
   color: #000;
 }
-.ul-links .nav-link:focus {
+.ul-links .nav-link:hover {
   border-bottom: 3px solid #28166c;
 }
 .nav-btn {
@@ -145,10 +149,16 @@ body.dark-mode {
 .nav-btn:hover .arrow:before {
   right: 0;
 }
-/* main-section */
 main {
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
+.nav-intro {
+  padding-top: 6vh;
+}
+.carousel-home-2 {
+  border-radius: 20px;
+}
+/* dfghjkfghjkjk */
 .switch {
   /* switch */
   --switch-width: 46px;
@@ -294,6 +304,7 @@ main {
   -webkit-box-shadow: var(--circle-checked-shadow);
   box-shadow: var(--circle-checked-shadow);
 }
+/* cards */
 .item-cards {
   border-radius: 10px;
 }
