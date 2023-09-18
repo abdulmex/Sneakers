@@ -1,3 +1,4 @@
+"use strict";
 const modeToggle = document.getElementById("mode-toggle");
 const prefersDarkMode = window.matchMedia(
   "(prefers-color-scheme: dark)"
