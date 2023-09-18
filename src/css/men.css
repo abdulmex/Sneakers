@@ -24,6 +24,9 @@ body.dark-mode {
   .navbar-brand {
     color: #d8e6fb;
   }
+  .soial-svg {
+    color: white;
+  }
 }
 /* hamburger */
 .icon-menu {
@@ -147,7 +150,7 @@ body.dark-mode {
 }
 /* main-section */
 main {
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 /* toggle btn */
 .switch {
